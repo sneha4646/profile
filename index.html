@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="profile.css">
+    <script src="https://kit.fontawesome.com/2dd5d1e6b2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Engineering Student</p>
+                <h1>
+                    Hello! I am <span> Sneha Sinha..</span>                        
+                </h1>
+            </div>
+        </div>
+    </div>
+    <!---------about---------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutcol1">
+                    <img src="OIP.jpg"> 
+                </div>
+                <div class="aboutcol2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>
+                        Diligent IT student seeking internship to apply theoretical knowledge in practical settings. Eager to contribute to innovative projects, enhance coding skills, and gain hands-on experience in software development.
+                    </p>
+                    <div class="tabtitle">
+                        <p class="tablinks activelink" onclick="opentab('skills')">Skills</p>
+                        <p class="tablinks" onclick="opentab('experience')">Experience</p>
+                        <p class="tablinks" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tabcontents activetab" id="skills">
+                        <ul>
+                            <li><span>Programming Languages:  
+                                
+                                
+                                 </span><br>Java, Python, C,.
+                                  </li>
+                            <li><span>Web Development:   </span><br>HTML,CSS  </li>
+                            <li><span>Tools:    </span><br> V.S. Code,Github.</li> 
+                            <li><span>General:</span><br>Problem Solving and <br>Algorithmic Thinking<br>
+                                Coding, Communication,<br> Fast learner,<br> Multitasker , Adaptability.</li>
+
+                        </ul>
+                    </div>
+                    <div class="tabcontents2 activetab" id="experience">
+                        <ul>
+                            <li><span>PaloAlto  </span><br>Summer Internship</li>
+                            <li><span>Bharat Internship  </span><br>Web development </li>
+                            <li><span>...   </span><br>.... </li> 
+
+                        </ul>
+                    </div>
+
+                    <div class="tabcontents3 activetab" id="education">
+                        <ul>
+                            <li><span>B.Tech. IT  </span><br>2022-26</li>
+                            <li><span>Senior Secondary   </span><br>2020-22 </li>
+                            <li><span>High School   </span><br>2018-20</li> 
+
+                        </ul>
+                    </div>
+
+
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-----------services------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+                <div class="serviceslist">
+                    <div>
+                        <i class="fa-brands fa-webflow"></i>
+                        <h2> Web Design  </h2>
+                        <p>
+                            Designing and coding websites tailored to clients' needs.
+                            Creating visually appealing and functional user interfaces.
+                            Implementing responsive design for optimal viewing across devices.
+                        </p>
+                        <a href="https://www.geeksforgeeks.org/web-design/">Learn more</a>  
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2> App Design   </h2>
+                        <p>
+                            Designing and building mobile applications for iOS and/or Android platforms.
+Crafting user interfaces and experiences that align with clients' objectives.
+                        </p>
+                        <a href="https://cloud.google.com/run/?utm_source=bing&utm_medium=cpc&utm_campaign=japac-IN-all-en-dr-skws-all-super-trial-e-dr-1009882&utm_content=text-ad-none-none-DEV_c-CRE_-ADGP_Hybrid+%7C+SKWS+-+EXA+%7C+Txt+~+Compute_Cloud+Run_app+design_main-KWID_43700079469856416-kwd-71400332977886:loc-90&userloc_149841-network_o&utm_term=KW_app%20design&gclid=f13c8761d1a6111253a3e2b5e2b6eb74&gclsrc=3p.ds&">Learn more</a>  
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-laptop-code"></i> 
+                        <h2> Developing  </h2>
+                        <p>
+                            Writing code in programming languages such as Python, Java, C++, JavaScript, or others, depending on the project requirements.
+Collaborating with a team to design, develop, and implement software solutions. 
+                        </p>
+                        <a href="https://www.growthspace.com/glossary/development-program">Learn more</a>  
+                    </div> 
+                                     
+
+                </div>
+            
+        </div>
+    </div>
+<!---------------portfolio--------------->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="worklist">
+                <div class="work">
+                    <img src="im.png">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>A brief and welcoming introduction about yourself.
+                            Concise statement highlighting your expertise and passion for web development.</p>
+                        <a href="#"><i class="..."></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="im3.jpg">
+                    <div class="layer">
+                        <h3>Netflix Homepage</h3>
+                        <p>Dynamic sliders showcasing different genres, original series, or trending content.</p>
+                        <a href="#"><i class="..."></i></a>
+                    </div> 
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!----------------------contact-------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contactleft">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i></i>sinhasneha427@gmail.com</p>
+                    <p><i class="fa-brands fa-whatsapp"></i>77976886366</p><br>
+                    <div class="socialicons">
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://twitter.com/?lang=en-in"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="mycv.docx"  download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contactright">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg">
+
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> sneha. Made with <i class="fa-solid fa-brain"></i> by Easy Tutorials</p>
+        </div>
+    </div>
+    
+    <script>
+        var tablinks=document.getElementsByClassName("tablinks");
+        var tabcontents=document.getElementsByClassName("tabcontents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("activelink");
+
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("activetab");
+
+            }
+            event.currentTarget.classList.add("activelink");
+            document.getElementById(tabname).classList.add("activetab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+            
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzbZN8OIWNeO-jFJthWejDPcrllLskVBDqadpzHzv7z43pT2LyABuFIW7P6TQQlSRDd/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      
+    
+</body>
+</html>
